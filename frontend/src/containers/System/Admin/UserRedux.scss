@@ -1,0 +1,29 @@
+.preview-img-container {
+  display: flex;
+  label.label-upload {
+    margin: auto;
+    width: 50%;
+    border: 3px solid antiquewhite;
+    padding: 5px;
+    background-color: antiquewhite;
+  }
+  .label-upload {
+    padding: 5px;
+    border-radius: 3px;
+    background: #ddd;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+  .preview-image {
+    height: 33px;
+    width: 67%;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+    background: center center no-repeat;
+    background-size: contain;
+    cursor: pointer;
+  }
+}
